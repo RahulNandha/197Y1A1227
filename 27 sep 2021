@@ -5,7 +5,7 @@ class amstrong
     public sttic void main(string[] args)throws IO exception
     {
         int t,s=0,n,r;
-        system.out.println("enter number:");
+        system.osut.println("enter number:");
         buffered reader br=new buffered reader
         n=integer.parseInt(br.readLine());
         t=n;
