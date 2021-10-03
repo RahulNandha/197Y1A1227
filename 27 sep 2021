@@ -1,1 +1,23 @@
-hello world
+import java.io.*;
+import java.util.*;
+class amstrong
+{
+    public sttic void main(string[] args)throws IO exception
+    {
+        int t,s=0,n,r;
+        system.out.println("enter number:");
+        buffered reader br=new buffered reader
+        n=integer.parseInt(br.readLine());
+        t=n;
+        while(t!=0)
+        {
+            r=t%10;
+            s=s+r*r*r;
+            t=t/10;
+        }
+        if(n==s)
+        system.out.println("nbr given is armstrong");
+        else
+        system.out.println("nbr given is not an armstrong");
+    }
+}
