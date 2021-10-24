@@ -9,8 +9,8 @@ struct marks
 main()
 {
     int i;
-    static      struct     marks;
-    student[3]={{74,83,73},{93,90,91},{83,96,90}};
+    static      struct marks;
+    struct [3]={{74,83,73},{93,90,91},{83,96,90}};
     static struct marks total;
     for(i=0;i<3;i++)
 {
@@ -27,4 +27,3 @@ printf("\n\nSUBJECT TOTAL\n\n");
 printf("english:%d\ncds:%d\nphy %d\n",total.eng,total.cds,total.phy);
 printf("\nGrand total:%d\n",total.tot);
 }
-s
