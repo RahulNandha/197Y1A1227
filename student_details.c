@@ -6,10 +6,10 @@ struct marks
     int phy;
     int tot;
 };
-main()
+int main()
 {
     int i;
-    static      struct marks;
+    static struct marks;
     student[3]={{74,83,73},{93,90,91},{83,96,90}};
     static struct marks total;
     for(i=0;i<3;i++)
