@@ -27,4 +27,3 @@ printf("stu[%d]:%d\n",i+1,student[i].tot");
 printf("\n\nSUBJECT TOTAL\n\n");
 printf("english:%d\ncds:%d\nphy %d\n",total.eng,total.cds,total.phy);
 printf("\nGrand total:%d\n",total.tot);
-}
