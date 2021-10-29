@@ -5,13 +5,14 @@ struct marks
     int cds;
     int phy;
     int tot;
+    int student;
 };
 int main()
 {
     int i;
     static struct marks;
     student[3]={{74,83,73},{93,90,91},{83,96,90}};
-    static struct marks total;
+    struct marks total;
     for(i=0;i<3;i++)
 {
     student[i].tot=student[i].eng+student[i].cds+student[i].phy;
