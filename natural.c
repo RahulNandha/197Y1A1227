@@ -1,8 +1,7 @@
 #include<stdio.h>
-main()
+int main()
 {
-    int=0;s=0;
-    sum;
+    int,i,s=0,sum;
     s=s+i;
     i++;
     if(i<=10);
