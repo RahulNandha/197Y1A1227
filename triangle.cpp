@@ -1,5 +1,5 @@
 #include<iostream.h>
-std::
+using namespace std;
 void main()
 {
     int a,b,c;
@@ -23,6 +23,5 @@ void main()
         cout<<"any valid triangle";
     }
     cout<<"cannot form a valid triangle";
-    }
     }
 }
