@@ -1,6 +1,6 @@
 #include<stdio.h>
 struct marks
-{
+class student
 {
     int eng;
     int cds;
@@ -23,10 +23,11 @@ int main()
     total.tot=total.tot+student[i].tot;
 }
 printf("STUDENT TOTAL\n\n");
-for(i=0;i<3;i++)
-printf("stu[%d]:%d\n",i+1,student[i].tot");
+{
+    for(i=0;i<3;i++)
+}
+printf("stu[%d]:%d\n",i+1,student[i].tot);
 printf("\n\nSUBJECT TOTAL\n\n");
 printf("english:%d\ncds:%d\nphy %d\n",total.eng,total.cds,total.phy);
 printf("\nGrand total:%d\n",total.tot);
-}
 }

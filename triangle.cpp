@@ -1,6 +1,6 @@
-#include<iostream.h>
+#include<iostream>
 using namespace std;
-void main()
+int main()
 {
     int a,b,c;
     cout<<"enter 3 sides";cin>>a>>b>>c;
@@ -10,7 +10,7 @@ void main()
     {
         cout<<"right angled";
     }
-    else if((a==b&&b!=c)||(b==c&&c!=a)||(c==a&&a!=b
+    else if((a==b&&b!=c)||(b==c&&c!=a)||(c==a&&a!=b))
     {
         cout<<"isosceles";
     }
