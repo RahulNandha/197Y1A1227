@@ -7,6 +7,7 @@ int main()
     swap(x,y);
     cout<<x<<y<<en
     dl;
+    
 }
 void swap(int a,int b)
 {
