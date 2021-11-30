@@ -31,5 +31,4 @@ int main()
    {
        printf("grade F");
    }
-return 0;
 }
