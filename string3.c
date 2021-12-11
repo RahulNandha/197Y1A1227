@@ -39,7 +39,7 @@ char getSecondMostFreq(string str)
 // Driver code
 int main()
 {
-	string str = "geeksforgeeks";
+	string str = "Rahul Nandha";
 	char res = getSecondMostFreq(str);
 	if (res != '\0')
 		cout << "Most frequent char is" << res;
