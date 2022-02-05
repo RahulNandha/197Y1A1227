@@ -1,9 +1,10 @@
-#include<iostream.h> 
-void main()
+#include<iostream> 
+using namespace std;
+int main()
 {
-int i;
+int i,n;
 for(i=0; i<100 ; i+=2)
 {
-cout<< i<<“\n”;
+cout<< i<<"\n";
 }
 }
