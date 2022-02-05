@@ -1,13 +1,12 @@
 #include<stdio.h>
 struct marks
-class student
 {
     int eng;
     int cds;
     int phy;
     int tot;
     int student;
-};
+}
 int main()
 {
     int i;

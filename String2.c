@@ -1,7 +1,7 @@
 #include<stdio.h>
 void printStr(char str[])
 {
-    printf("String is:%s,str");
+    printf("String");
 }
 int main()
 {

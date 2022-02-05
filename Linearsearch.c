@@ -4,10 +4,10 @@ int main()
     int a[20],i,x,n;
     printf("how many elements:");
     scanf("%d",&a[i]);
-    printf("enter array elements:n");
+    printf("enter array elements:");
     for(i=0;i<n;i++)
     scanf("%d",&a[i]);
-    printf("n element t search:");
+    printf("element to search:");
     scanf("%d",&x);
     for(i=0;i<n;i++)
     if(a[i]==x)
