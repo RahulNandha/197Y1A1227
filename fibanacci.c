@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int n1=0,n2=0,n3,i,nbr;
+    int n1=0,n2=1,n3,i,nbr;
     printf("enter the no of elements:");
-    scanf("\n %d%d",n1,n2);
+    scanf("\n %d %d",n1,n2);
     for(i=2;i<nbr;i++)
     {
         n3=n1+n2;

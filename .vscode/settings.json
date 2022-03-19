@@ -1,6 +1,7 @@
 {
     "C_Cpp.errorSquiggles": "Disabled",
     "files.associations": {
-        "BFS.C": "cpp"
+        "BFS.C": "cpp",
+        "stdio.h": "c"
     }
 }
