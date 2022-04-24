@@ -33,11 +33,11 @@ int main()
             break;
             case 2:insert_at_front();
             break;
-            case 3:insert_at_middle
+            case 3:insert_at_middle();
             break;
             case 4:insert_at_end();
             break;
-            case 5:display
+            case 5:display();
             break;
             case 6:delete_at_front;
             break;
@@ -82,8 +82,8 @@ int main()
        printf("inserted successfully.\n");
    }
    void insert_at_end()
-   {
-       struct node*new1;
+	{
+         struct node*new1;
        int ele;
        new1=(struct node*)malloc(sizeof(struct node));
        ptr=header;
@@ -105,7 +105,7 @@ int main()
            struct node*new1;
            int ele;
            int pos;
-           int cout=0;
+           int count=0;
            new1=(struct node*)malloc(sizeof(struct node));
            ptr=header;
            if(new1=NULL)
@@ -117,18 +117,18 @@ int main()
         scanf("%d",&ele);
         printf("enter the position where you want to insert the element:");
         scanf("%d",&pos);
-        while(ptr->next1=NULL)
+        while(ptr->next=NULL)
         {
             count++;
             ptr=ptr->next;
         }
-        if(cout<pos)
+        if(count<pos)
        }
        printf("position is out of range.\n");
        return;
    }
    ptr=header;
-   count=0;
+   count==0;
    while(count<pos-1)
    {
        ptr=ptr->next;
@@ -210,10 +210,5 @@ void display()
     temp=ptr->next;
     ptr->next=ptr->next->next;
     free(temp);
-    printf("deleted successfully.\n");w
+    printf("deleted successfully.\n");
 }
-
-
-
-
-
