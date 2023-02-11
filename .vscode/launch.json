@@ -2,6 +2,14 @@
     "configurations": [
         {
             "type": "java",
+            "request": "attach",
+            "name": "Java",
+            "port": 5005,
+            "sourceRoots": []
+        },
+
+        {
+            "type": "java",
             "name": "Launch basic",
             "request": "launch",
             "mainClass": "basic",
